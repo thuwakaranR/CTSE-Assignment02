@@ -1,10 +1,12 @@
 # Ignore the virtual environment folder
 venv/
+.env/
 
 # Ignore Python bytecode
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -12,5 +14,19 @@ __pycache__/
 # Ignore macOS-specific files
 .DS_Store
 
-# Ignore environment variable files
-.env
+# Ignore Windows-specific files
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Ignore data files (optional - if PDFs or raw data shouldn't be committed)
+data/*.pdf
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
