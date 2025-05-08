@@ -1,29 +1,31 @@
-# Ignore the virtual environment folder
+# Virtual environment and environment files
 venv/
+.env
 .env/
 
-# Ignore Python bytecode
+# Python bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore Jupyter Notebook checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore macOS-specific files
+# OS-specific files
 .DS_Store
-
-# Ignore Windows-specific files
 Thumbs.db
 
 # VSCode settings
 .vscode/
 
-# Ignore log files
+# Log files
 *.log
 
-# Ignore build artifacts
+# Build artifacts
 build/
 dist/
 *.egg-info/
+
+# Chroma vector store directory
+ctse_db/
