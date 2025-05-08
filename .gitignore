@@ -20,9 +20,6 @@ Thumbs.db
 # VSCode settings
 .vscode/
 
-# Ignore data files (optional - if PDFs or raw data shouldn't be committed)
-data/*.pdf
-
 # Ignore log files
 *.log
 
