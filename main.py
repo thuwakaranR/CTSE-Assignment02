@@ -61,5 +61,3 @@ while True:
         break
     answer = qa_chain.invoke({"query": query})
     print("💡 Answer:", answer["result"])
-
-
