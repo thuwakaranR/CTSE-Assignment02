@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_huggingface import HuggingFaceEmbeddings, HuggingFacePipeline
+from langchain_huggingface import HuggingFaceEmbeddings, HuggingFacePipeline  # ✅ Updated
 from langchain_community.vectorstores import Chroma
 from langchain.chains import RetrievalQA
 from transformers import pipeline
@@ -20,9 +20,9 @@ text_splitter = RecursiveCharacterTextSplitter(
 docs = text_splitter.split_documents(documents)
 print(f"✅ Total chunks created: {len(docs)}")
 
-# ✅ Step 3: Generate embeddings using HuggingFace
+# ✅ Step 3: Generate embeddings using updated HuggingFace class
 print("🔍 Generating embeddings...")
-embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 print("✅ Embedding model loaded successfully")
 
 # ✅ Step 4: Store vectors in Chroma DB
@@ -33,9 +33,10 @@ vectordb = Chroma.from_documents(
     embedding=embedding_model,
     persist_directory=persist_directory
 )
+# No need to call vectordb.persist() in Chroma 0.4.x+
 print("📦 Vector store created and saved")
 
-# ✅ Step 5: Load open-source LLM using HuggingFace Pipeline
+# ✅ Step 5: Load open-source LLM using updated HuggingFacePipeline
 print("🤖 Loading open-source model (google/flan-t5-base)...")
 hf_pipeline = pipeline(
     "text2text-generation",

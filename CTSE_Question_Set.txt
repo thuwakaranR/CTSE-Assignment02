@@ -1,0 +1,76 @@
+>>CTSE QUESTION SET<<
+
+01.
+What are the primary benefits of using AWS Cloud?
+
+02.
+How is AWS Global Infrastructure structured in terms of Regions and Availability Zones?
+
+03.
+What are IAM Users, Roles, and Policies, and how do they differ?
+
+04.
+What are the three main methods to interact with AWS services?
+
+05.
+Name three compute-related services provided by AWS and briefly describe their use cases?
+
+06
+What security best practices should be followed when managing AWS accounts?
+
+07.
+What are Amazon S3, EBS, and EFS used for in terms of storage?
+
+08.
+List three AWS services under the category of Machine Learning?
+
+09.
+Explain the three properties of the CAP Theorem and why only two can be guaranteed at once?
+
+10.
+What does partition tolerance mean in a distributed system, and how does it affect system reliability?
+
+11.
+What is the difference between vertical scaling and horizontal scaling in cloud computing?
+
+12.
+How does Amazon EC2 differ from AWS Lambda in terms of compute execution?
+
+13.
+What are some common use cases for Amazon RDS and Amazon DynamoDB?
+
+14.
+Describe the Shared Responsibility Model in AWS. What is AWS responsible for, and what is the customer responsible for?
+
+15.
+How does the AWS Free Tier help new users explore the platform, and what limitations does it have?
+
+16.
+Discuss the key advantages of adopting cloud computing for modern businesses, and explain how AWS supports these advantages through its core services?
+
+17.
+Explain the CAP Theorem in the context of distributed systems. Provide real-world examples of systems that prioritize different aspects of the theorem (Consistency, Availability, Partition Tolerance)?
+
+18.
+Compare and contrast Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS) with examples from AWS for each model?
+
+19.
+Elaborate on the Shared Responsibility Model in AWS. Why is it important, and what are the implications for organizations handling sensitive data in the cloud?
+
+20.
+Describe the process and best practices for securing an AWS environment. Include details about IAM, encryption, and monitoring tools available in AWS?
+
+21.
+How does scalability differ from elasticity in the cloud? Discuss how AWS services enable these two features and their importance in application development?
+
+22.
+Analyze the role of AWS Identity and Access Management (IAM) in securing cloud infrastructure. How do users, roles, and policies work together to enforce security principles like least privilege?
+
+23.
+Discuss how serverless computing (e.g., AWS Lambda) is changing the way applications are developed and deployed. What are the trade-offs compared to traditional virtual server models like EC2?
+
+24.
+How can cloud-native design principles enhance application performance, scalability, and maintainability on AWS? Illustrate your answer with service examples?
+
+25.
+Reflect on how cloud computing is reshaping IT career roles and responsibilities. What new skills are essential, and how does a platform like AWS support career development?
